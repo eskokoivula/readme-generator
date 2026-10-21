@@ -2,7 +2,7 @@
 name: readme-generator
 description: Generates a complete README.md for any repo — software packages, CLI tools, Claude Code skills, or script collections. Reads the local project and, if a GitHub URL is given, also researches it on the web. Writes a publication-ready README in one pass with no placeholder sections, plus a GitHub About line and topics. Use when the user says "write a README", "generate a README", "update the README", "document this repo", "README for this skill", or "my README is stale".
 allowed-tools: ["Read", "Glob", "Grep", "Write", "Bash", "WebFetch", "WebSearch", "mcp__exa__web_search_exa", "mcp__exa__web_fetch_exa"]
-version: 2.3.1
+version: 2.4.0
 author: b1rdmania
 license: Apache-2.0
 keywords: [documentation, readme, markdown, claude-skill, github]
@@ -192,6 +192,23 @@ Apply throughout. No exceptions.
 - No emojis unless the user asks
 - Present tense, declarative sentences
 - All commands in code blocks — never inline
+
+#### STE pass
+
+When the draft is complete, run one pass of ASD-STE100 Simplified Technical English (STE) over all prose, the About line included. Code blocks, commands, identifiers, file paths and quoted output stay as they are.
+
+If the `simple-english` skill is installed, run it in pragmatic mode. If not, apply these rules:
+
+- Procedures (Install, Usage, Configuration steps): imperative, one instruction per sentence, 20 words or fewer
+- Descriptions: one new fact per sentence, 25 words or fewer
+- A condition comes before its command: "If the build fails, read the log."
+- Active voice and simple tenses only. No "-ing" form as a verb
+- One name for one thing in the whole README — not "config" in one section and "settings" in another
+- Modals: "can", "will", "must" only. A requirement takes "must". State a suggestion as a fact or delete it
+- No semicolons, contractions or Latin abbreviations. Write "for example", not "e.g.". Name the items instead of "etc."
+- Short is not telegraphic: keep articles and "that"
+
+Domain words stay. "Webhook", "commit" and "deploy" are legal technical words.
 
 ---
 
