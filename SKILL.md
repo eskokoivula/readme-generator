@@ -197,7 +197,7 @@ Apply throughout. No exceptions.
 
 When the draft is complete, run one pass of ASD-STE100 Simplified Technical English (STE) over all prose, the About line included. Code blocks, commands, identifiers, file paths and quoted output stay as they are.
 
-If the `simple-english` skill is installed, run it in pragmatic mode. If not, apply these rules:
+If the `simple-english` skill is installed, run it in its default mode, not strict. If not, apply these rules:
 
 - Procedures (Install, Usage, Configuration steps): imperative, one instruction per sentence, 20 words or fewer
 - Descriptions: one new fact per sentence, 25 words or fewer
