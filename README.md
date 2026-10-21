@@ -48,7 +48,7 @@ flowchart TD
 
 Web research is optional. The skill uses the Exa MCP if it is configured, then the built-in WebSearch and WebFetch. With no search tool, it reads the local files only.
 
-The STE pass is optional too. The skill uses the `simple-english` skill from [claude-plain-english-skill](https://github.com/b1rdmania/claude-plain-english-skill) if it is installed. Without it, the skill applies its own short set of STE rules.
+The STE pass always runs. The `simple-english` skill is optional: the skill uses the one from [claude-plain-english-skill](https://github.com/b1rdmania/claude-plain-english-skill) if it is installed. Without it, the skill applies its own short set of STE rules.
 
 ## License
 

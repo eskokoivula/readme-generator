@@ -190,7 +190,7 @@ Apply throughout. No exceptions.
 - No filler adjectives: "powerful", "robust", "seamless", "comprehensive", "simple", "easy"
 - No marketing tone — write for the person installing it, not a product page
 - No emojis unless the user asks
-- Present tense, declarative sentences
+- Present tense. Declarative sentences for descriptions, imperative sentences for instructions
 - All commands in code blocks — never inline
 
 #### STE pass
@@ -204,7 +204,7 @@ If the `simple-english` skill is installed, run it in its default mode, not stri
 - A condition comes before its command: "If the build fails, read the log."
 - Active voice and simple tenses only. No "-ing" form as a verb
 - One name for one thing in the whole README — not "config" in one section and "settings" in another
-- Modals: "can", "will", "must" only. A requirement takes "must". State a suggestion as a fact or delete it
+- Modals: "can", "will", "must" only. A requirement takes "must". Keep every recommendation: state it as a fact or start it with "We recommend"
 - No semicolons, contractions or Latin abbreviations. Write "for example", not "e.g.". Name the items instead of "etc."
 - Short is not telegraphic: keep articles and "that"
 
