@@ -197,6 +197,8 @@ Apply throughout. No exceptions.
 
 When the draft is complete, run one pass of ASD-STE100 Simplified Technical English (STE) over all prose, the About line included. Code blocks, commands, identifiers, file paths and quoted output stay as they are.
 
+Keep every recommendation. State it as a fact or start it with "We recommend". This rule applies in both cases below and overrides any rule in `simple-english` that deletes suggestions.
+
 If the `simple-english` skill is installed, run it in its default mode, not strict. If not, apply these rules:
 
 - Procedures (Install, Usage, Configuration steps): imperative, one instruction per sentence, 20 words or fewer
@@ -204,7 +206,7 @@ If the `simple-english` skill is installed, run it in its default mode, not stri
 - A condition comes before its command: "If the build fails, read the log."
 - Active voice and simple tenses only. No "-ing" form as a verb
 - One name for one thing in the whole README — not "config" in one section and "settings" in another
-- Modals: "can", "will", "must" only. A requirement takes "must". Keep every recommendation: state it as a fact or start it with "We recommend"
+- Modals: "can", "will", "must" only. A requirement takes "must"
 - No semicolons, contractions or Latin abbreviations. Write "for example", not "e.g.". Name the items instead of "etc."
 - Short is not telegraphic: keep articles and "that"
 
